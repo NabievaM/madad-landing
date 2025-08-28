@@ -7,7 +7,10 @@
     >
       <p class="text-lg font-semibold">Biz bilan bog‘laning</p>
       <div class="flex flex-col md:flex-row items-center gap-6">
-        <div class="flex items-center gap-2 text-green-400">
+        <a
+          :href="`tel:${phone}`"
+          class="flex items-center gap-2 text-green-400 hover:text-green-500 transition"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -27,7 +30,7 @@
             />
           </svg>
           {{ phone }}
-        </div>
+        </a>
 
         <a
           href="https://t.me/username"

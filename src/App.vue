@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col bg-gray-50">
-    <div class="flex-1 container mx-auto px-4 py-10 space-y-6">
+    <div class="flex-1 px-0 py-10 space-y-6">
       <ServiceCard
         v-for="(item, i) in services"
         :key="i"
@@ -9,6 +9,7 @@
         :phone="phone"
         :icon="item.icon"
         :gradient="item.gradient"
+        :url="item.url"
         v-model="openIndex[i]"
         @update:modelValue="(val) => handleToggle(i, val)"
       />

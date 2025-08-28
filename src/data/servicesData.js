@@ -37,7 +37,7 @@ export const services = [
   },
   {
     icon: Truck,
-    title: "Distribyutorlar",
+    title: "Distribyutsiyani avtomatlashtirish",
     desc: [
       "Buyurtmalar, agentlar va logistika to‘liq nazorat ostida!",
       "Buyurtmalarni boshqarish",
@@ -62,7 +62,7 @@ export const services = [
   },
   {
     icon: Wrench,
-    title: "TopRaqam",
+    title: "TopRaqam.uz",
     desc: [
       "Kundalik xizmatlarni topish imkoniyati",
       "Xizmat taklif qilish imkoniyati",
@@ -70,6 +70,7 @@ export const services = [
       "Bo’sh ish o‘rinlarini topish imkoniyati",
     ],
     gradient: "from-blue-500 via-sky-500 to-cyan-500",
+    url: "https://topraqam.uz",
   },
   {
     icon: Monitor,
