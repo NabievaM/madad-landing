@@ -19,7 +19,7 @@
 
         <div class="mt-6 flex justify-center gap-4">
           <a
-            href="tel:+99850 150 0909"
+            href="tel:+998336007707"
             class="flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-medium shadow hover:opacity-90 transition"
           >
             <svg
@@ -78,7 +78,7 @@ import ServiceCard from "./components/ServiceCard.vue";
 import Footer from "./components/Footer.vue";
 import { services } from "./data/servicesData";
 
-const phone = "+998 50 150 09 09";
+const phone = "+998501500909";
 const openIndex = ref(services.map(() => false));
 
 function handleToggle(index, value) {
