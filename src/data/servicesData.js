@@ -79,7 +79,7 @@ export const services = [
     title: "Veb sayt yaratish",
     desc: [
       "Biznesingizni yangi bosqichga olib chiqing!",
-      "Landing page, internet do‘kon, CRM integratsiya",
+      "Landing page, Internet do‘kon, CRM integratsiya",
     ],
     gradient: "from-indigo-500 via-blue-600 to-cyan-600",
   },
@@ -117,10 +117,11 @@ export const services = [
     icon: GraduationCap,
     title: "IT Academy",
     desc: [
-      "IT kurslari: Frontend, Backend, Mobil dasturlash, Sun’iy intellekt",
-      "SMM va Dizayn bo‘yicha amaliy kurslar",
+      "IT kurslari: Frontend, Backend, Web va Mobil dasturlash",
+      "Grafik dizayn va Mobilografiya bo‘yicha kurslar",
+      "SMM va Sun’iy intellekt yo‘nalishlari",
       "Til kurslari (Ingliz, Rus, Nemis, Arab)",
-      "Amaliy loyihalar va mentorlik dasturi",
+      "Web dasturlash ayollar uchun",
     ],
     gradient: "from-fuchsia-500 via-purple-600 to-indigo-600",
   },
