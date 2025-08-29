@@ -7,6 +7,8 @@ import {
   Monitor,
   GraduationCap,
   Palette,
+  Smartphone,
+  Camera,
 } from "lucide-vue-next";
 
 export const services = [
@@ -82,20 +84,43 @@ export const services = [
     gradient: "from-indigo-500 via-blue-600 to-cyan-600",
   },
   {
-    icon: Palette,
-    title: "Mobilografiya & Grafik dizayn",
+    icon: Camera,
+    title: "Mobilografiya",
     desc: [
       "Biznesingiz uchun zamonaviy reklama video!",
-      "Social media kontent, brand dizayn, reklama bannerlar",
+      "Professional videoroliklar va kontent yaratish",
+      "Ijtimoiy tarmoqlar uchun sifatli vizual materiallar",
+    ],
+    gradient: "from-teal-400 via-cyan-500 to-blue-500",
+  },
+  {
+    icon: Palette,
+    title: "Grafik dizayn",
+    desc: [
+      "Social media postlar va bannerlar",
+      "Logotip va brend identifikatsiya",
+      "Reklama dizaynlari va prezentatsiyalar",
     ],
     gradient: "from-pink-500 via-rose-500 to-red-500",
+  },
+  {
+    icon: Smartphone,
+    title: "Mobil dasturlash",
+    desc: [
+      "Android va iOS uchun mobil ilovalar",
+      "Biznesingizga mos maxsus ilovalar",
+      "Savdo, xizmat va ta’lim uchun mobil yechimlar",
+    ],
+    gradient: "from-emerald-500 via-green-600 to-lime-500",
   },
   {
     icon: GraduationCap,
     title: "IT Academy",
     desc: [
-      "IT kurslari (Frontend, Backend, SMM, AI)",
+      "IT kurslari: Frontend, Backend, Mobil dasturlash, Sun’iy intellekt",
+      "SMM va Dizayn bo‘yicha amaliy kurslar",
       "Til kurslari (Ingliz, Rus, Nemis, Arab)",
+      "Amaliy loyihalar va mentorlik dasturi",
     ],
     gradient: "from-fuchsia-500 via-purple-600 to-indigo-600",
   },

@@ -33,7 +33,7 @@
         </a>
 
         <a
-          href="https://t.me/username"
+          href="https://t.me/madad_it_agancy"
           target="_blank"
           class="flex items-center gap-2 hover:text-blue-400 transition"
         >
@@ -51,11 +51,11 @@
                        l5.355 1.674L18.4 5.9c.398-.242.76-.108.462.134z"
             />
           </svg>
-          @username
+          @madad_it_agancy
         </a>
 
         <a
-          href="mailto:demo@gmail.com"
+          href="mailto:topraqam@gmail.com"
           class="flex items-center gap-2 hover:text-red-400 transition"
         >
           <svg
@@ -71,7 +71,7 @@
                        5 8-5v2l-8 5-8-5V8z"
             />
           </svg>
-          demo@gmail.com
+          topraqam@gmail.com
         </a>
       </div>
     </div>
